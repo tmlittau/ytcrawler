@@ -10,6 +10,18 @@ Currently only total views, subscriber count and number of videos is pulled. Thi
 
 
 ### Web Backend 
+
+#### Dependencies
+youtube api
+
+  `go get -u google.golang.org/api/youtube/v3`
+  
+oauth2
+
+  `go get -u golang.org/x/oauth2/...`
+ 
+
+#### Usage Manual
 The Backend written in Go currently works in the same way as the jupyter prototype.
 
 To use the Script, OAuth 2.0 is required. The following instruction on OAuth is taken from https://developers.google.com/youtube/v3/quickstart/go
